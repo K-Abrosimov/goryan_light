@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.promo {
+    min-height: 628px;
+    background: url(../assets/promo_bg.png) center center / cover no-repeat;
+    padding: 21px 0 41px 0;
+    z-index: -1;
+}
+
+
+
+.promo .promo_header {
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 56px;
+
+}
+
+.promo .header_descr {
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 187.5% */
+    margin-top: 44px;
+    max-width: 580px;
+    z-index: 1;
+    background-color: #122249c7;
+    padding: 5px;
+}
+
+.promo .promo_social_links {
+    margin-top: 54px;
+}
+
+.promo .promo_btn {
+    width: 240px;
+    height: 66.976px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #132e73;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: transparent;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 38px;
+    cursor: pointer;
+}
+.promo .promo_btn:hover{
+    background-color: #493c8b;
+}
+
+.division {
+    min-height: 302px;
+    padding: 45px 0 60px 0;
+}
+.division .division_header{
+    text-align: center;
+    color: #171616; 
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+   
+
+}
+
+.division .division_title_subline {
+    width: 200px;
+    height: 5px;
+    border-radius: 20px;
+    background: #930303;
+    margin: 0 auto;
+    margin-top: 5px;
+
+
+}
+
+.division .division_item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.division .division_item .division_image_cirle {
+    width: 150px;
+    height: 150px;
+    background-color: #122249;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+
+
+}
+
+.division .division_item .division_descr {
+    width: 350px;
+}
+
+.division .division_item .division_descr .division_title {
+    color: #e8e8e8;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 26px;
+    background-color: #141651;
+
+
+}
+
+
+
+.division .division_item .division_descr .division_subtitile_text {
+    color: #686262;
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.optical,
+.voltage {
+    min-height: 492px;
+    background: linear-gradient(180deg, #206FA9 0%, #010C28 100%);
+    padding: 50px 0 95px 0;
+}
+
+.voltage {
+    background: url(./../assets/bg-voltage.png) center center / cover no-repeat;
+}
+
+.optical .optical_header,
+.voltage .voltage_header {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.optical .optical_service_list,
+.voltage .voltage_service_list {
+    margin-top: 50px;
+}
+
+.optical .optical_wrapper,
+.voltage .voltage_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.optical .optical_wrapper .optical_service_list_item,
+.voltage .voltage_wrapper .voltage_service_list_item {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.optical .optical_wrapper .optical_image_box .optical_img,
+.voltage .voltage_wrapper .voltage_image_box .voltage_img {
+    height: 15vh;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid #000;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 5px 7px 0px 0px rgba(243, 243, 243, 0.25);
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.clients {
+    padding: 45px 0 90px 0;
+    min-height: 400px;
+}
+
+.clients .clients_header {
+    color: #171616;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+
+
+}
+
+.clients .clients_header_subline {
+    margin: 0 auto;
+    width: 200px;
+    height: 5px;
+    border-radius: 5px;
+    background: #9E0707;
+    margin-top: 10px;
+
+}
+
+.clients .clients_header_subtxt {
+    color: #5A5A5A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.clients .clients_logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.clients .clients_logos .client_logo{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.contacts{
+    background: #000;
+    min-height: 250px;
+    padding: 70px 0 50px 0;
+}
+
+.contacts .logo{
+    display: block;
+    margin: 0 auto;
+
+}
+
+.contacts .contacts_wrapper .social_networks{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
